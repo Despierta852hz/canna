@@ -85,7 +85,7 @@ export async function POST(req: NextRequest) {
     const currentMessageContent = messages[messages.length - 1].content;
 
     const chatModel = new ChatOpenAI({
-      modelName: "gpt-4o-mini",
+      modelName: "gpt-4o",
       temperature: 0.2,
     });
 
