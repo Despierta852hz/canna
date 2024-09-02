@@ -58,7 +58,7 @@ export default function Home() {
   const [audioPlayer, setAudioPlayer] = useState<HTMLAudioElement | null>(null);
   const [visemes, setVisemes] = useState<any>(null);
   const [showChat, setShowChat] = useState<boolean>(false);
-  const [response, setResponse] = useState("Hola, ¿cómo estás? Soy Canna AI, tu guía personal en CBDMEX, aquí para ayudarte con todo lo relacionado con el cannabis. ¿Cómo puedo asistirte hoy?");
+  const [response, setResponse] = useState("¡Hola! Soy Canna AI, tu guía para todo lo relacionado con la medicina herbaria, el cannabis y los hongos medicinales. Ya sea que tengas curiosidad por los remedios naturales, que quieras explorar los beneficios del cannabis o que desees adentrarte en el mundo de los hongos medicinales, estoy aquí para ayudarte. ¿Tienes alguna pregunta sobre alguno de estos temas? ¡Hablemos!");
   const [count, setCount] = useState(0)
   const [displayText, setDisplayText] = useState('INITIALIZED: ready to test speech...');
   const [recording, setRecording] = useState("not yet");
