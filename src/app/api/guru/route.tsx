@@ -87,6 +87,7 @@ export async function POST(req: NextRequest) {
     const chatModel = new ChatOpenAI({
       modelName: "gpt-4o-mini",
       temperature: 0.2,
+      streaming: true,
     });
 
     const vectorstore = await new UpstashVectorStore(new OpenAIEmbeddings());
